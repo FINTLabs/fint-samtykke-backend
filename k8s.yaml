@@ -1,0 +1,53 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    service.beta.kubernetes.io/azure-load-balancer-internal: "true"
+  labels:
+    io.kompose.service: fint-samtykke-backend
+  name: fint-samtykke-backend
+spec:
+  ports:
+    - name: "8080"
+      port: 8080
+  type: LoadBalancer
+  selector:
+    io.kompose.service: fint-samtykke-backend
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+  labels:
+    io.kompose.service: fint-samtykke-backend
+  name: fint-samtykke-backend
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      io.kompose.service: fint-samtykke-backend
+  template:
+    metadata:
+      labels:
+        io.kompose.service: fint-samtykke-backend
+    spec:
+      restartPolicy: Always
+      containers:
+        - image: fintlabsacr.azurecr.io/fint-samtykke-backend:dummy
+          name: fint-samtykke-backend
+          resources:
+            limits:
+              memory: "512Mi"
+              cpu: "1"
+            requests:
+              memory: "128Mi"
+              cpu: "100m"
+          ports:
+            - containerPort: 8080
+          env:
+            - name: TZ
+              value: Europe/Oslo
+            - name: JAVA_TOOL_OPTIONS
+              value: '-XX:+ExitOnOutOfMemoryError -Xmx480M -verbose:gc'
