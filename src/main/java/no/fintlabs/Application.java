@@ -13,9 +13,4 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
-    @Bean
-    public CacheObjectFactory getFintCache(){
-        return new CacheObjectFactory<>(PackingTypes.DEFLATE);
-    }
-
 }

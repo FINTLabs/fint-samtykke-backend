@@ -1,7 +1,9 @@
 package no.fintlabs.samtykke.behandlingsgrunnlag;
 
 import no.fint.model.resource.personvern.kodeverk.BehandlingsgrunnlagResource;
+import no.fintlabs.cache.CacheManager;
 import no.fintlabs.cache.FintCache;
+import no.fintlabs.cache.packing.PackingTypes;
 import org.springframework.stereotype.Service;
 import java.util.List;
 
@@ -11,8 +13,8 @@ public class BehandlingsgrunnlagService {
 
     private final boolean useMockData = true;
 
-    public BehandlingsgrunnlagService(FintCache<BehandlingsgrunnlagResource> fintCache) {
-        this.fintCache = fintCache;
+    public BehandlingsgrunnlagService(CacheManager cacheManager) {
+        this.fintCache = cacheManager.<BehandlingsgrunnlagResource>create(PackingTypes.DEFLATE);
 
         if (useMockData) addMockData();
     }

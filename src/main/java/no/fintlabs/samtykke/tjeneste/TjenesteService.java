@@ -4,7 +4,9 @@ package no.fintlabs.samtykke.tjeneste;
 
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 import no.fint.model.resource.personvern.samtykke.TjenesteResource;
+import no.fintlabs.cache.CacheManager;
 import no.fintlabs.cache.FintCache;
+import no.fintlabs.cache.packing.PackingTypes;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -16,8 +18,8 @@ public class TjenesteService {
 
     private final boolean useMockData = true;
 
-    public TjenesteService(FintCache<TjenesteResource> fintCache) {
-        this.fintCache = fintCache;
+    public TjenesteService(CacheManager cacheManager) {
+        this.fintCache = cacheManager.<TjenesteResource>create(PackingTypes.DEFLATE);
 
         if (useMockData) addMockData();
     }

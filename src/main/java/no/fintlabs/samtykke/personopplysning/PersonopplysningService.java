@@ -3,7 +3,9 @@ package no.fintlabs.samtykke.personopplysning;
 // this will listen to kafka and get out the messages that pertain to samtykke
 
 import no.fint.model.resource.personvern.kodeverk.PersonopplysningResource;
+import no.fintlabs.cache.CacheManager;
 import no.fintlabs.cache.FintCache;
+import no.fintlabs.cache.packing.PackingTypes;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -15,8 +17,8 @@ public class PersonopplysningService {
 
     private final boolean useMockData = true;
 
-    public PersonopplysningService(FintCache<PersonopplysningResource> fintCache) {
-         this.fintCache = fintCache;
+    public PersonopplysningService(CacheManager cacheManager) {
+         this.fintCache = cacheManager.<PersonopplysningResource>create(PackingTypes.DEFLATE);
 
         if (useMockData) addMockData();
     }
