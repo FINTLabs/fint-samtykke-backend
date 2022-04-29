@@ -1,0 +1,30 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "kode": "1",
+        "navn": "Because we want to make our staff have the illusion of being friendly.",
+        "systemId": {
+          "identifikatorverdi": "E_500001_1"
+        }
+      },
+      {
+        "kode": "2",
+        "navn": "Nødvendig for å beskytte vitale interesser",
+        "systemId": {
+          "identifikatorverdi": "E_500002_2"
+        }
+      },
+      {
+        "kode": "3",
+        "navn": "Formålet med e-postadressen er å sende ut markedsføring.",
+        "systemId": {
+          "identifikatorverdi": "E_500002_3"
+        }
+      }
+    ],
+    "total_items": 3,
+    "offset": 0,
+    "size": 3
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "kode": "email",
+        "navn": "personal email account",
+        "systemId": {
+          "identifikatorverdi": "1"
+        }
+      },
+      {
+        "kode": "picture",
+        "navn": "picture of a person",
+        "systemId": {
+          "identifikatorverdi": "2"
+        }
+      },
+      {
+        "kode": "phone",
+        "navn": "personal phone number",
+        "systemId": {
+          "identifikatorverdi": "3"
+        }
+      }
+    ],
+    "total_items": 2,
+    "offset": 0,
+    "size": 2
+  }
+}

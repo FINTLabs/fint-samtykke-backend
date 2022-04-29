@@ -1,0 +1,125 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "aktiv": true,
+        "formal": "behandling purpose goes here...",
+        "systemId": {
+          "identifikatorverdi": "1"
+        },
+        "_links": {
+          "tjeneste": [
+            {
+              "href": "https://beta.felleskomponent.no/personvern/samtykke/tjeneste/systemid/1"
+            }
+          ],
+          "behandlingsgrunnlag": [
+            {
+              "href": "https://beta.felleskomponent.no/personvern/kodeverk/behandlingsgrunnlag/systemid/1"
+            }
+          ],
+          "personopplysning": [
+            {
+              "href": "https://beta.felleskomponent.no/personvern/kodeverk/personopplysning/systemid/1"
+            }
+          ],
+          "self": [
+            {
+              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/1"
+            }
+          ]
+        }
+      },
+      {
+        "aktiv": true,
+        "formal": "a second behandling purpose goes here!",
+        "systemId": {
+          "identifikatorverdi": "2"
+        },
+        "_links": {
+          "tjeneste": [
+            {
+              "href": "https://beta.felleskomponent.no/personvern/samtykke/tjeneste/systemid/1"
+            }
+          ],
+          "behandlingsgrunnlag": [
+            {
+              "href": "https://beta.felleskomponent.no/personvern/kodeverk/behandlingsgrunnlag/systemid/1"
+            }
+          ],
+          "personopplysning": [
+            {
+              "href": "https://beta.felleskomponent.no/personvern/kodeverk/personopplysning/systemid/2"
+            }
+          ],
+          "self": [
+            {
+              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/2"
+            }
+          ]
+        }
+      },
+      {
+        "aktiv": true,
+        "formal": "a second behandling purpose goes here!",
+        "systemId": {
+          "identifikatorverdi": "3"
+        },
+        "_links": {
+          "tjeneste": [
+            {
+              "href": "https://beta.felleskomponent.no/personvern/samtykke/tjeneste/systemid/1"
+            }
+          ],
+          "behandlingsgrunnlag": [
+            {
+              "href": "https://beta.felleskomponent.no/personvern/kodeverk/behandlingsgrunnlag/systemid/2"
+            }
+          ],
+          "personopplysning": [
+            {
+              "href": "https://beta.felleskomponent.no/personvern/kodeverk/personopplysning/systemid/3"
+            }
+          ],
+          "self": [
+            {
+              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/3"
+            }
+          ]
+        }
+      },
+      {
+        "aktiv": true,
+        "formal": "a second behandling purpose goes here!",
+        "systemId": {
+          "identifikatorverdi": "4"
+        },
+        "_links": {
+          "tjeneste": [
+            {
+              "href": "https://beta.felleskomponent.no/personvern/samtykke/tjeneste/systemid/1"
+            }
+          ],
+          "behandlingsgrunnlag": [
+            {
+              "href": "https://beta.felleskomponent.no/personvern/kodeverk/behandlingsgrunnlag/systemid/2"
+            }
+          ],
+          "personopplysning": [
+            {
+              "href": "https://beta.felleskomponent.no/personvern/kodeverk/personopplysning/systemid/3"
+            }
+          ],
+          "self": [
+            {
+              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/4"
+            }
+          ]
+        }
+      }
+    ],
+    "total_items": 4,
+    "offset": 0,
+    "size": 4
+  }
+}

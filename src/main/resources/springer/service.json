@@ -1,0 +1,50 @@
+{
+  "_embedded": {
+    "_entries": [
+      {
+        "navn": "VIS",
+        "systemId": {
+          "identifikatorverdi": "1"
+        },
+        "_links": {
+          "behandling": [
+            {
+              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/1"
+            },
+            {
+              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/2"
+            },
+            {
+              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/3"
+            }
+          ]
+        }
+      },
+      {
+        "navn": "Office365",
+        "systemId": {
+          "identifikatorverdi": "2"
+        },
+        "_links": {
+        "behandling": [
+          {
+            "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/2"
+          },
+          {
+            "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/4"
+          }
+        ]
+      }
+      },
+      {
+        "navn": "Website",
+        "systemId": {
+          "identifikatorverdi": "3"
+        }
+      }
+    ],
+    "total_items": 2,
+    "offset": 0,
+    "size": 2
+  }
+}

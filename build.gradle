@@ -43,6 +43,8 @@ dependencies {
     //implementation 'org.springframework.kafka:spring-kafka'
     implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server'
     implementation 'io.netty:netty-resolver-dns-native-macos:4.1.72.Final:osx-aarch_64'
+    implementation 'no.fintlabs:fint-resource-server-security:1.1.0'
+    implementation 'org.springframework.boot:spring-boot-starter-test'// check read me for an example
 
     compileOnly 'org.projectlombok:lombok'
     runtimeOnly 'io.micrometer:micrometer-registry-prometheus'
