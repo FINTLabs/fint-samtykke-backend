@@ -9,13 +9,13 @@
         "_links": {
           "behandling": [
             {
-              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/1"
+              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/1999"
             },
             {
-              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/2"
+              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/2999"
             },
             {
-              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/3"
+              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/3999"
             }
           ]
         }
@@ -28,10 +28,10 @@
         "_links": {
         "behandling": [
           {
-            "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/2"
+            "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/2999"
           },
           {
-            "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/4"
+            "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/4999"
           }
         ]
       }

@@ -5,7 +5,6 @@ import lombok.extern.slf4j.Slf4j;
 import no.fint.model.felles.kompleksedatatyper.Identifikator;
 import no.fint.model.resource.personvern.kodeverk.BehandlingsgrunnlagResource;
 import no.fint.model.resource.personvern.kodeverk.BehandlingsgrunnlagResources;
-import no.fint.model.resource.personvern.samtykke.BehandlingResources;
 import no.fintlabs.cache.CacheManager;
 import no.fintlabs.cache.FintCache;
 import no.fintlabs.cache.packing.PackingTypes;
@@ -22,12 +21,12 @@ import java.util.stream.Collectors;
 public class PolicyPurposeService {
     private final FintCache<BehandlingsgrunnlagResource> fintCache;
 
-    private final boolean useMockData = true;
     private final ObjectMapper objectMapper;
 
     public PolicyPurposeService(CacheManager cacheManager, ObjectMapper objectMapper) {
-        this.fintCache = cacheManager.<BehandlingsgrunnlagResource>create(PackingTypes.DEFLATE);
+        this.fintCache = cacheManager.create(PackingTypes.DEFLATE);
         this.objectMapper = objectMapper;
+        boolean useMockData = true;
         if (useMockData) addMockData();
     }
 

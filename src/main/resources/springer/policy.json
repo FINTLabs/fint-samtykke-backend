@@ -5,7 +5,7 @@
         "aktiv": true,
         "formal": "behandling purpose goes here...",
         "systemId": {
-          "identifikatorverdi": "1"
+          "identifikatorverdi": "1999"
         },
         "_links": {
           "tjeneste": [
@@ -25,7 +25,7 @@
           ],
           "self": [
             {
-              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/1"
+              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/1999"
             }
           ]
         }
@@ -34,7 +34,7 @@
         "aktiv": true,
         "formal": "a second behandling purpose goes here!",
         "systemId": {
-          "identifikatorverdi": "2"
+          "identifikatorverdi": "2999"
         },
         "_links": {
           "tjeneste": [
@@ -54,16 +54,16 @@
           ],
           "self": [
             {
-              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/2"
+              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/2999"
             }
           ]
         }
       },
       {
-        "aktiv": true,
-        "formal": "a second behandling purpose goes here!",
+        "aktiv": false,
+        "formal": "a third inactive behandling purpose goes here!",
         "systemId": {
-          "identifikatorverdi": "3"
+          "identifikatorverdi": "3999"
         },
         "_links": {
           "tjeneste": [
@@ -83,16 +83,16 @@
           ],
           "self": [
             {
-              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/3"
+              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/3999"
             }
           ]
         }
       },
       {
         "aktiv": true,
-        "formal": "a second behandling purpose goes here!",
+        "formal": "a fourth behandling purpose goes here!",
         "systemId": {
-          "identifikatorverdi": "4"
+          "identifikatorverdi": "4999"
         },
         "_links": {
           "tjeneste": [
@@ -112,7 +112,7 @@
           ],
           "self": [
             {
-              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/4"
+              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/4999"
             }
           ]
         }
