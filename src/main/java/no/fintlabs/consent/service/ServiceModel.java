@@ -11,6 +11,8 @@ public class ServiceModel {
     private String systemId;
     private List<String> policySystemIds;
 
+    private String policySystemId;
+
     public ServiceModel() {
         policySystemIds = new ArrayList<>();
     }

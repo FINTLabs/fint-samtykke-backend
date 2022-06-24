@@ -3,14 +3,14 @@
     "_entries": [
       {
         "kode": "1",
-        "navn": "Because we want to make our staff have the illusion of being friendly.",
+        "navn": "Formålet er å vite hvem som er medlem i foreningen.",
         "systemId": {
           "identifikatorverdi": "1"
         }
       },
       {
         "kode": "2",
-        "navn": "Nødvendig for å beskytte vitale interesser",
+        "navn": "Nødvendig for å beskytte vitale interesser.",
         "systemId": {
           "identifikatorverdi": "2"
         }

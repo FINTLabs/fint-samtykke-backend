@@ -10,7 +10,7 @@ public class PersonalDataController {
 
     // test a thing
     // option-enter
-    private PersonalDataService personalDataService;
+    private final PersonalDataService personalDataService;
 
     public PersonalDataController(PersonalDataService personalDataService) {
         this.personalDataService = personalDataService;

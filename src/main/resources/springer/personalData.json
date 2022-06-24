@@ -3,21 +3,21 @@
     "_entries": [
       {
         "kode": "email",
-        "navn": "personal email account",
+        "navn": "personlig e-postkonto",
         "systemId": {
           "identifikatorverdi": "1"
         }
       },
       {
         "kode": "picture",
-        "navn": "picture of a person",
+        "navn": "bilde av en person",
         "systemId": {
           "identifikatorverdi": "2"
         }
       },
       {
         "kode": "phone",
-        "navn": "personal phone number",
+        "navn": "personlig telefonnummer",
         "systemId": {
           "identifikatorverdi": "3"
         }

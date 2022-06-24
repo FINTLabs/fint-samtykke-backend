@@ -3,7 +3,7 @@
     "_entries": [
       {
         "aktiv": true,
-        "formal": "behandling purpose goes here...",
+        "formal": "Vis e-postadresse på nettsiden",
         "systemId": {
           "identifikatorverdi": "1999"
         },
@@ -32,7 +32,7 @@
       },
       {
         "aktiv": true,
-        "formal": "a second behandling purpose goes here!",
+        "formal": "For å gjøre nettsiden mer brukervennlig",
         "systemId": {
           "identifikatorverdi": "2999"
         },
@@ -61,7 +61,7 @@
       },
       {
         "aktiv": false,
-        "formal": "a third inactive behandling purpose goes here!",
+        "formal": "Så alle i verden kan ringe deg hjemme.",
         "systemId": {
           "identifikatorverdi": "3999"
         },
@@ -90,7 +90,7 @@
       },
       {
         "aktiv": true,
-        "formal": "a fourth behandling purpose goes here!",
+        "formal": "Skal kun brukes som backup",
         "systemId": {
           "identifikatorverdi": "4999"
         },

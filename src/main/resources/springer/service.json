@@ -2,7 +2,7 @@
   "_embedded": {
     "_entries": [
       {
-        "navn": "VIS",
+        "navn": "Website",
         "systemId": {
           "identifikatorverdi": "1"
         },
@@ -13,9 +13,6 @@
             },
             {
               "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/2999"
-            },
-            {
-              "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/3999"
             }
           ]
         }
@@ -28,7 +25,7 @@
         "_links": {
         "behandling": [
           {
-            "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/2999"
+            "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/3999"
           },
           {
             "href": "https://beta.felleskomponent.no/personvern/samtykke/behandling/systemid/4999"
@@ -37,7 +34,7 @@
       }
       },
       {
-        "navn": "Website",
+        "navn": "VIS",
         "systemId": {
           "identifikatorverdi": "3"
         }
